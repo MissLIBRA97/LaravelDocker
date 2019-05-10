@@ -25,6 +25,7 @@ Dev environment docker for laravel with NGINX, MySQL and PHP.
 ## 修改参数文件
 
     > cd bin && cp env-example .env
+    > cd bin && copy env-example .env (Windows)
 
 windows 需要将 .env 文件中
 
