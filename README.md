@@ -28,23 +28,23 @@ Dev environment docker for laravel with NGINX, MySQL and PHP.
 
 windows 需要将 .env 文件中
 
-    >COMPOSE_PATH_SEPARATOR=:
+    > COMPOSE_PATH_SEPARATOR=:
 
 改为
 
-    >COMPOSE_PATH_SEPARATOR=;
+    > COMPOSE_PATH_SEPARATOR=;
 
 mysql默认安装最新版本 需要修改版本的 需要在.env中修改：
 
-    >MYSQL_VERSION=X.X
+    > MYSQL_VERSION=X.X
 
 mysql默认账户密码：
 
->default：secret
+> default：secret
 
 mysql默认账户：
 
->root：root
+> root：root
 
 ## 安装
 
@@ -59,7 +59,7 @@ mysql默认账户：
 使用php artisan等php命令时 请先进入workspace容器
 workspace容器默认挂载了./local目录
 
-    >docker-compose exec workspace bash
+    > docker-compose exec workspace bash
 
 # 3. 使用：
 
@@ -67,13 +67,13 @@ workspace容器默认挂载了./local目录
 
 在./bin/目录下运行：
 
-    >docker-compose up -d
+    > docker-compose up -d
 
 ## 3.2. 停止：
 
 在./bin/目录下运行：
 
-    >docker-compose down
+    > docker-compose down
 
 
 # 4. 疑难杂症：
