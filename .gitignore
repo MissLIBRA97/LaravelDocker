@@ -1,0 +1,5 @@
+/bin/logs
+/bin/.env
+/bin/nginx/ssl/*.crt
+/bin/nginx/ssl/*.key
+/bin/nginx/ssl/*.csr
