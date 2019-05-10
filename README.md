@@ -7,6 +7,9 @@ Dev environment docker for laravel with NGINX, MySQL and PHP.
 - [LaravelDocker](#laraveldocker)
 - [1. 配置要求：](#1-配置要求)
 - [2. 安装：](#2-安装)
+    - [修改参数文件](#修改参数文件)
+    - [安装](#安装)
+    - [开始使用](#开始使用)
 - [3. 使用：](#3-使用)
     - [3.1. 启动：](#31-启动)
     - [3.2. 停止：](#32-停止)
@@ -19,7 +22,7 @@ Dev environment docker for laravel with NGINX, MySQL and PHP.
 
 > git clone https://github.com/MissLIBRA97/LaravelDocker.git
 
-* 修改参数文件
+## 修改参数文件
 
     > cd bin && cp env-example .env
 
@@ -37,13 +40,14 @@ Dev environment docker for laravel with NGINX, MySQL and PHP.
     mysql默认账户：
         root：root
 
-* 安装
+## 安装
     > docker-compose up --build -d
 
     若期间有错 排除错误后重新运行即可。
     安装配置过程大约需要十分钟。
 
-* 开始使用
+## 开始使用
+
     网站目录在 ./local
     使用php artisan等php命令时 请先进入workspace容器
     workspace容器默认挂载了./local目录
